@@ -16,7 +16,7 @@ LifeCalc is a simple web application that helps you calculate your age in years,
 
 ## Live Demo
 
-You can try out LifeCalc [here](https://mumbi-prog.github.io/TeahAlpha_LifeCalc/).
+You can try out LifeCalc [here](https://mumbi-prog.github.io/TechAlpha_LifeCalc/).
 
 ## Design
 
