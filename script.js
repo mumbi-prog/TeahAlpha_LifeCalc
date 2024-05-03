@@ -14,5 +14,9 @@ function calculateAge() {
         const years = Math.floor(ageInDays / 365);
         const months = Math.floor((ageInDays % 365) / 30);
         const days = ageInDays % 30;
+
+        let ageOutput = document.getElementById('ageOutput');
+        ageOutput.textContent = 'You are ' + years + ' years ' + months + ' months and ' + days + ' days old.';
      
 }
+
