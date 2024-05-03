@@ -43,11 +43,25 @@ body{
     padding: 3px 7px;
 }
 .add-age button{
-    padding: 5px 7px;
-    border-radius: 3px;
-    border: none;
     color: white;
     font-size: 14px;
     width: 150px;
-    background-color: rgb(22, 24, 154);
+    background: none;
+    position: relative;
+    margin: 15px;
+    padding: 5px 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #3335c9;
 }
+.add-age button:hover{
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #725AC1;
+    border: 2px solid #725AC1;
+}
+
