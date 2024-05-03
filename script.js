@@ -7,5 +7,7 @@ function calculateAge() {
             alert("Please add today's date or one in the past.");
             return;
         }
-  
+
+        const ageInMilliseconds = today.getTime() - mydateofbirth.getTime();
+    
 }
