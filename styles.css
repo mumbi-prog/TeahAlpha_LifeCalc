@@ -1,12 +1,14 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
     background: url('img/bkg.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,9 +16,11 @@ body{
 
 .wrapper{
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    width: 600px;
-    height: 300px;
-    margin: 200px auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px; 
+    margin: 20px auto; 
+    box-sizing: border-box;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-radius: 20px;
